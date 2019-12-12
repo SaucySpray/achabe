@@ -1,0 +1,50 @@
+// Viewports
+$viewport__sm: 420px;
+$viewport__sm--offset: 20px;
+$viewport__md: 1024px;
+$viewport__md--offset: 40px;
+$viewport__lg: 1440px;
+$viewport__lg--offset: 80px;
+
+// Colors
+$color__cream: #ebebeb;
+$color__cream--light: #e6e6e6;
+$color__cream--dark: #dddddd;
+$color__primary: #333333;
+$color__primary--light: rgb(58, 58, 58);
+$color__primary--dark: rgb(44, 44, 44);
+$color__contrast: #FEF500;
+$color__contrast--light: rgb(242, 234, 0);
+$color__contrast--dark: rgb(232, 224, 0);
+$shadow: rgba($color: $color__primary, $alpha: 0.42);
+
+$depth__large: 10rem;
+$depth: 4rem;
+$depth__mobile: 2rem;
+$depth__cta: 1rem;
+$depth__slide: 0.6rem;
+
+// Fonts
+@font-face {
+    font-family: 'BigNoodle';
+    src: url('../static/fonts/big_noodle_titling.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'BigNoodle';
+    src: url('../static/fonts/big_noodle_titling_oblique.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../static/fonts/vollkorn-regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../static/fonts/vollkorn-black.ttf');
+    font-weight: 600;
+}
